@@ -1,4 +1,9 @@
 package data.mana.colors;
 
-public class Brown {
+import data.mana.Mana;
+
+public class Brown extends Mana {
+    protected String abstractGetName() {
+        return "Brown";
+    }
 }
