@@ -1,4 +1,4 @@
-package data.mana;
+package data.mana.unit;
 
 public abstract class Mana {
     private String name;
