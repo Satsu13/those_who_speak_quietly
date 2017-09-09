@@ -1,19 +1,19 @@
 package data.game;
 
 import data.game.board.Board;
-import data.player.Player;
+import data.game.player.InGamePlayer;
 
 import java.util.List;
 
 public class Game {
-    private List<Player> players;
+    private List<InGamePlayer> players;
     private Board board;
 
-    public List<Player> getPlayers() {
+    public List<InGamePlayer> getPlayers() {
         return players;
     }
 
-    public void setPlayers(List<Player> players) {
+    public void setPlayers(List<InGamePlayer> players) {
         this.players = players;
     }
 
