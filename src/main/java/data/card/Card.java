@@ -6,6 +6,7 @@ import java.util.List;
 
 public class Card {
     private String name;
+
     private List<Ability> abilities;
 
     public String getName() {
