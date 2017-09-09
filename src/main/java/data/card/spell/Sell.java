@@ -1,4 +1,6 @@
 package data.card.spell;
 
-public class Sell {
+import data.card.Card;
+
+public class Sell extends Card {
 }

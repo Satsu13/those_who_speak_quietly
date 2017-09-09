@@ -1,4 +1,6 @@
 package data.card.permanent.constant;
 
-public class Constant {
+import data.card.permanent.Permanent;
+
+public class Constant extends Permanent {
 }

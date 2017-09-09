@@ -1,4 +1,6 @@
 package data.card.permanent.mana;
 
-public class Mana {
+import data.card.permanent.Permanent;
+
+public class Mana extends Permanent {
 }

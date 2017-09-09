@@ -1,4 +1,6 @@
 package data.card.permanent;
 
-public class Permanent {
+import data.card.Card;
+
+public class Permanent extends Card {
 }

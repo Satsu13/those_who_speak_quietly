@@ -1,4 +1,6 @@
 package data.card.permanent.creature;
 
-public class Creature {
+import data.card.permanent.Permanent;
+
+public class Creature extends Permanent {
 }
