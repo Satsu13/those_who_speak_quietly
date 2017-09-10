@@ -1,4 +1,6 @@
 package data.game.player.board;
 
-public class InGameDeck {
+import data.collection.Deck;
+
+public class InGameDeck extends Deck {
 }
