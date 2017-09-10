@@ -1,8 +1,6 @@
-package data.collection.card.permanent.creature;
+package data.collection.card;
 
-import data.collection.card.permanent.Permanent;
-
-public class Creature extends Permanent {
+public class Creature extends Card {
     private int attack;
 
     private int health;
