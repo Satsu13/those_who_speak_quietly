@@ -1,4 +1,7 @@
 package data.game.player;
 
-public class InGamePlayer {
+import data.player.Player;
+
+public class InGamePlayer extends Player {
+    private Hand
 }
