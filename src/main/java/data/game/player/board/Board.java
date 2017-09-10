@@ -1,5 +1,6 @@
 package data.game.player.board;
 
+import data.collection.Deck;
 import data.collection.card.permanent.Permanent;
 
 import java.util.List;
@@ -9,7 +10,7 @@ public class Board {
 
     private Graveyard graveyard;
 
-    private InGameDeck deck;
+    private Deck deck;
 
     private List<Permanent> permanents;
 
@@ -29,11 +30,11 @@ public class Board {
         this.graveyard = graveyard;
     }
 
-    public InGameDeck getDeck() {
+    public Deck getDeck() {
         return deck;
     }
 
-    public void setDeck(InGameDeck deck) {
+    public void setDeck(Deck deck) {
         this.deck = deck;
     }
 
