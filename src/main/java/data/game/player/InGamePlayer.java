@@ -1,23 +1,12 @@
 package data.game.player;
 
 import data.game.player.board.Board;
-import data.game.player.board.Hand;
 import data.player.Player;
 
 public class InGamePlayer extends Player {
-    private Hand hand;
-
     private Board board;
 
     private int life;
-
-    public Hand getHand() {
-        return hand;
-    }
-
-    public void setHand(Hand hand) {
-        this.hand = hand;
-    }
 
     public Board getBoard() {
         return board;
