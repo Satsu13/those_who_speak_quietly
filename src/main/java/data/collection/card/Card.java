@@ -12,6 +12,8 @@ public class Card {
 
     private List<Ability> abilities;
 
+    private String flavorText;
+
     public String getName() {
         return name;
     }
@@ -34,5 +36,13 @@ public class Card {
 
     public void setAbilities(List<Ability> abilities) {
         this.abilities = abilities;
+    }
+
+    public String getFlavorText() {
+        return flavorText;
+    }
+
+    public void setFlavorText(String flavorText) {
+        this.flavorText = flavorText;
     }
 }
