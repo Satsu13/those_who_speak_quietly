@@ -1,15 +1,15 @@
 package data.ability;
 
-import data.cost.Cost;
+import data.cost.PermanentsCost;
 
 public class ActivatedAbility extends Ability {
-    private Cost cost;
+    private PermanentsCost cost;
 
-    public Cost getCost() {
+    public PermanentsCost getCost() {
         return cost;
     }
 
-    public void setCost(Cost cost) {
+    public void setCost(PermanentsCost cost) {
         this.cost = cost;
     }
 }
