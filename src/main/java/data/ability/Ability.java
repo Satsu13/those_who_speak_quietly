@@ -1,15 +1,9 @@
 package data.ability;
 
-import data.mana.cost.Cost;
-
 public class Ability {
     private boolean hasName;
 
     private String name;
-
-    private boolean hasCost;
-
-    private Cost cost;
 
     private String description;
 
@@ -27,22 +21,6 @@ public class Ability {
 
     public void setName(String name) {
         this.name = name;
-    }
-
-    public boolean isHasCost() {
-        return hasCost;
-    }
-
-    public void setHasCost(boolean hasCost) {
-        this.hasCost = hasCost;
-    }
-
-    public Cost getCost() {
-        return cost;
-    }
-
-    public void setCost(Cost cost) {
-        this.cost = cost;
     }
 
     public String getDescription() {
