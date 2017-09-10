@@ -1,9 +1,10 @@
-package data.mana.cost;
+package data.cost;
 
 import data.mana.unit.Mana;
 
 public class Cost {
     private Mana color;
+
     private int amount;
 
     public Mana getColor() {
