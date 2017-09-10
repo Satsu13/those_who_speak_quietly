@@ -1,17 +1,15 @@
 package data.game;
 
 import data.game.player.InGamePlayer;
+import javafx.beans.property.ObjectProperty;
+import javafx.beans.property.SimpleObjectProperty;
 
 import java.util.List;
 
 public class Game {
-    private List<InGamePlayer> players;
+    public final ObjectProperty<List<InGamePlayer>> players;
 
-    public List<InGamePlayer> getPlayers() {
-        return players;
-    }
-
-    public void setPlayers(List<InGamePlayer> players) {
-        this.players = players;
+    public Game() {
+        players = new SimpleObjectProperty<List<InGamePlayer>>();
     }
 }

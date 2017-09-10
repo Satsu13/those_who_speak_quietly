@@ -1,15 +1,13 @@
 package data.ability;
 
 import data.cost.PermanentsCost;
+import javafx.beans.property.ObjectProperty;
+import javafx.beans.property.SimpleObjectProperty;
 
 public class ActivatedAbility extends Ability {
-    private PermanentsCost cost;
+    public final ObjectProperty<PermanentsCost> cost;
 
-    public PermanentsCost getCost() {
-        return cost;
-    }
-
-    public void setCost(PermanentsCost cost) {
-        this.cost = cost;
+    public ActivatedAbility() {
+        cost = new SimpleObjectProperty<PermanentsCost>();
     }
 }

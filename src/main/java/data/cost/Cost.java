@@ -1,25 +1,16 @@
 package data.cost;
 
 import data.mana.Mana;
+import javafx.beans.property.ObjectProperty;
+import javafx.beans.property.SimpleObjectProperty;
 
 public class Cost {
-    private Mana color;
+    public final ObjectProperty<Mana> type;
 
-    private int amount;
+    public final ObjectProperty<Integer> amount;
 
-    public Mana getColor() {
-        return color;
-    }
-
-    public void setColor(Mana color) {
-        this.color = color;
-    }
-
-    public int getAmount() {
-        return amount;
-    }
-
-    public void setAmount(int amount) {
-        this.amount = amount;
+    public Cost() {
+        type = new SimpleObjectProperty<Mana>();
+        amount = new SimpleObjectProperty<Integer>();
     }
 }

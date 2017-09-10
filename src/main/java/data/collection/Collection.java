@@ -1,27 +1,18 @@
 package data.collection;
 
 import data.collection.card.Card;
+import javafx.beans.property.ObjectProperty;
+import javafx.beans.property.SimpleObjectProperty;
 
 import java.util.List;
 
 public class Collection {
-    private List<Card> cards;
+    public final ObjectProperty<List<Card>> cards;
 
-    private List<Deck> decks;
+    public final ObjectProperty<List<Deck>> decks;
 
-    public List<Card> getCards() {
-        return cards;
-    }
-
-    public void setCards(List<Card> cards) {
-        this.cards = cards;
-    }
-
-    public List<Deck> getDecks() {
-        return decks;
-    }
-
-    public void setDecks(List<Deck> decks) {
-        this.decks = decks;
+    public Collection() {
+        cards = new SimpleObjectProperty<List<Card>>();
+        decks = new SimpleObjectProperty<List<Deck>>();
     }
 }

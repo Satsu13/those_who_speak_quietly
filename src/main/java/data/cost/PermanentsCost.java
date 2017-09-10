@@ -1,13 +1,12 @@
 package data.cost;
 
+import javafx.beans.property.ObjectProperty;
+import javafx.beans.property.SimpleObjectProperty;
+
 public class PermanentsCost extends Cost {
-    private boolean mustBeCranked;
+    public final ObjectProperty<Boolean> mustBeCranked;
 
-    public boolean isMustBeCranked() {
-        return mustBeCranked;
-    }
-
-    public void setMustBeCranked(boolean mustBeCranked) {
-        this.mustBeCranked = mustBeCranked;
+    public PermanentsCost() {
+        mustBeCranked = new SimpleObjectProperty<Boolean>();
     }
 }

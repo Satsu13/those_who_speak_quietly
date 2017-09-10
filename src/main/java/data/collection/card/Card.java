@@ -2,47 +2,25 @@ package data.collection.card;
 
 import data.ability.Ability;
 import data.cost.Cost;
+import javafx.beans.property.ObjectProperty;
+import javafx.beans.property.SimpleObjectProperty;
 
 import java.util.List;
 
 public class Card {
-    private String name;
+    public final ObjectProperty<String> name;
 
-    private Cost cost;
+    public final ObjectProperty<Cost> cost;
 
-    private List<Ability> abilities;
+    public final ObjectProperty<List<Ability>> abilities;
 
-    private String flavorText;
+    public final ObjectProperty<String> flavorText;
 
-    public String getName() {
-        return name;
-    }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public Cost getCost() {
-        return cost;
-    }
-
-    public void setCost(Cost cost) {
-        this.cost = cost;
-    }
-
-    public List<Ability> getAbilities() {
-        return abilities;
-    }
-
-    public void setAbilities(List<Ability> abilities) {
-        this.abilities = abilities;
-    }
-
-    public String getFlavorText() {
-        return flavorText;
-    }
-
-    public void setFlavorText(String flavorText) {
-        this.flavorText = flavorText;
+    public Card() {
+        name = new SimpleObjectProperty<String>();
+        cost = new SimpleObjectProperty<Cost>();
+        abilities = new SimpleObjectProperty<List<Ability>>();
+        flavorText = new SimpleObjectProperty<String>();
     }
 }

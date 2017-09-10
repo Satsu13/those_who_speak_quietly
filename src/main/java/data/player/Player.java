@@ -1,13 +1,12 @@
 package data.player;
 
+import javafx.beans.property.ObjectProperty;
+import javafx.beans.property.SimpleObjectProperty;
+
 public class Player {
-    private String name;
+    public final ObjectProperty<String> name;
 
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
+    public Player() {
+        name = new SimpleObjectProperty<String>();
     }
 }

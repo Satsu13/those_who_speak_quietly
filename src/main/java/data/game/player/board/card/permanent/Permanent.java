@@ -1,13 +1,12 @@
 package data.game.player.board.card.permanent;
 
+import javafx.beans.property.ObjectProperty;
+import javafx.beans.property.SimpleObjectProperty;
+
 public class Permanent {
-    private boolean isCranked;
+    public final ObjectProperty<Boolean> isCranked;
 
-    public boolean isCranked() {
-        return isCranked;
-    }
-
-    public void setCranked(boolean cranked) {
-        isCranked = cranked;
+    public Permanent() {
+        isCranked = new SimpleObjectProperty<Boolean>();
     }
 }

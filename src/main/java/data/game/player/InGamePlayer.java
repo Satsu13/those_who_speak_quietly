@@ -2,25 +2,16 @@ package data.game.player;
 
 import data.game.player.board.Board;
 import data.player.Player;
+import javafx.beans.property.ObjectProperty;
+import javafx.beans.property.SimpleObjectProperty;
 
 public class InGamePlayer extends Player {
-    private Board board;
+    public final ObjectProperty<Board> board;
 
-    private int life;
+    public final ObjectProperty<Integer> life;
 
-    public Board getBoard() {
-        return board;
-    }
-
-    public void setBoard(Board board) {
-        this.board = board;
-    }
-
-    public int getLife() {
-        return life;
-    }
-
-    public void setLife(int life) {
-        this.life = life;
+    public InGamePlayer() {
+        board = new SimpleObjectProperty<Board>();
+        life = new SimpleObjectProperty<Integer>();
     }
 }

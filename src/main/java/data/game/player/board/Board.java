@@ -2,47 +2,24 @@ package data.game.player.board;
 
 import data.collection.Deck;
 import data.game.player.board.card.permanent.Permanent;
+import javafx.beans.property.ObjectProperty;
+import javafx.beans.property.SimpleObjectProperty;
 
 import java.util.List;
 
 public class Board {
-    private Hand hand;
+    public final ObjectProperty<Hand> hand;
 
-    private Graveyard graveyard;
+    public final ObjectProperty<Graveyard> graveyard;
 
-    private Deck deck;
+    public final ObjectProperty<Deck> deck;
 
-    private List<Permanent> permanents;
+    public final ObjectProperty<List<Permanent>> permanents;
 
-    public Hand getHand() {
-        return hand;
-    }
-
-    public void setHand(Hand hand) {
-        this.hand = hand;
-    }
-
-    public Graveyard getGraveyard() {
-        return graveyard;
-    }
-
-    public void setGraveyard(Graveyard graveyard) {
-        this.graveyard = graveyard;
-    }
-
-    public Deck getDeck() {
-        return deck;
-    }
-
-    public void setDeck(Deck deck) {
-        this.deck = deck;
-    }
-
-    public List<Permanent> getPermanents() {
-        return permanents;
-    }
-
-    public void setPermanents(List<Permanent> permanents) {
-        this.permanents = permanents;
+    public Board() {
+        hand = new SimpleObjectProperty<Hand>();
+        graveyard = new SimpleObjectProperty<Graveyard>();
+        deck = new SimpleObjectProperty<Deck>();
+        permanents = new SimpleObjectProperty<List<Permanent>>();
     }
 }

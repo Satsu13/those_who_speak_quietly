@@ -1,13 +1,12 @@
 package data.mana;
 
+import javafx.beans.property.ObjectProperty;
+import javafx.beans.property.SimpleObjectProperty;
+
 public class Mana {
-    private String type;
+    public final ObjectProperty<String> type;
 
-    public String getType() {
-        return type;
-    }
-
-    public void setType(String type) {
-        this.type = type;
+    public Mana() {
+        type = new SimpleObjectProperty<String>();
     }
 }

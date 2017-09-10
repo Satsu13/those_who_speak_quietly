@@ -1,23 +1,15 @@
 package data.collection.card;
 
+import javafx.beans.property.ObjectProperty;
+import javafx.beans.property.SimpleObjectProperty;
+
 public class Creature extends Card {
-    private int attack;
+    public final ObjectProperty<Integer> attack;
 
-    private int health;
+    public final ObjectProperty<Integer> health;
 
-    public int getAttack() {
-        return attack;
-    }
-
-    public void setAttack(int attack) {
-        this.attack = attack;
-    }
-
-    public int getHealth() {
-        return health;
-    }
-
-    public void setHealth(int health) {
-        this.health = health;
+    public Creature() {
+        attack = new SimpleObjectProperty<Integer>();
+        health = new SimpleObjectProperty<Integer>();
     }
 }

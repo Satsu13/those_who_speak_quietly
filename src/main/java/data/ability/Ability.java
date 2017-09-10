@@ -1,33 +1,18 @@
 package data.ability;
 
+import javafx.beans.property.ObjectProperty;
+import javafx.beans.property.SimpleObjectProperty;
+
 public class Ability {
-    private boolean hasName;
+   public final ObjectProperty<Boolean> hasName;
 
-    private String name;
+    public final ObjectProperty<String> name;
 
-    private String description;
+    public final ObjectProperty<String> description;
 
-    public boolean isHasName() {
-        return hasName;
-    }
-
-    public void setHasName(boolean hasName) {
-        this.hasName = hasName;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getDescription() {
-        return description;
-    }
-
-    public void setDescription(String description) {
-        this.description = description;
+    public Ability() {
+        hasName = new SimpleObjectProperty<Boolean>();
+        name = new SimpleObjectProperty<String>();
+        description = new SimpleObjectProperty<String>();
     }
 }
