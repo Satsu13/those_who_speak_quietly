@@ -4,10 +4,10 @@ public abstract class Mana {
     private String name;
 
     public Mana() {
-        this.name = abstractGetName();
+        this.name = setName();
     }
 
-    protected abstract String abstractGetName();
+    protected abstract String setName();
 
     public String getName() {
         return name;
