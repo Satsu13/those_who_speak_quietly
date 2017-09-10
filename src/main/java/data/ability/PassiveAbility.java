@@ -1,4 +1,4 @@
 package data.ability;
 
-public class PassiveAbility {
+public class PassiveAbility extends Ability {
 }
