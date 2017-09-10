@@ -1,5 +1,6 @@
 package data.game.player;
 
+import data.game.player.board.Board;
 import data.player.Player;
 
 public class InGamePlayer extends Player {
