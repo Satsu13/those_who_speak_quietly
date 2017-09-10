@@ -1,7 +1,7 @@
 package data.card;
 
 import data.ability.Ability;
-import data.mana.cost.Cost;
+import data.cost.Cost;
 
 import java.util.List;
 
