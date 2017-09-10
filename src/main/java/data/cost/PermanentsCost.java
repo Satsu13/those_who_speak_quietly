@@ -1,13 +1,13 @@
 package data.cost;
 
 public class PermanentsCost extends Cost {
-    private boolean mustTurnSideways;
+    private boolean mustBeCranked;
 
-    public boolean isMustTurnSideways() {
-        return mustTurnSideways;
+    public boolean isMustBeCranked() {
+        return mustBeCranked;
     }
 
-    public void setMustTurnSideways(boolean mustTurnSideways) {
-        this.mustTurnSideways = mustTurnSideways;
+    public void setMustBeCranked(boolean mustBeCranked) {
+        this.mustBeCranked = mustBeCranked;
     }
 }
