@@ -15,8 +15,7 @@ public class Card {
     public final ObjectProperty<List<Ability>> abilities;
 
     public final ObjectProperty<String> flavorText;
-
-
+    
     public Card() {
         name = new SimpleObjectProperty<String>();
         cost = new SimpleObjectProperty<Cost>();
