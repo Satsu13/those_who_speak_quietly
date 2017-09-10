@@ -1,15 +1,13 @@
 package data.mana;
 
-public abstract class Mana {
+public class Mana {
     private String name;
-
-    public Mana() {
-        this.name = setName();
-    }
-
-    protected abstract String setName();
 
     public String getName() {
         return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 }
