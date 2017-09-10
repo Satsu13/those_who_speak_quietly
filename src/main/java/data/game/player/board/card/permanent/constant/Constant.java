@@ -1,4 +1,4 @@
-package data.collection.card.permanent.constant;
+package data.game.player.board.card.permanent.constant;
 
 import data.collection.card.permanent.Permanent;
 

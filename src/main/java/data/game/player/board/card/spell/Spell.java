@@ -1,4 +1,4 @@
-package data.collection.card.spell;
+package data.game.player.board.card.spell;
 
 import data.collection.card.Card;
 
