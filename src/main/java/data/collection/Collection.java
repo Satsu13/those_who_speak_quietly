@@ -1,6 +1,6 @@
 package data.collection;
 
-import data.card.Card;
+import data.collection.card.Card;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package data.card;
+package data.collection.card;
 
 import data.ability.Ability;
 import data.cost.Cost;

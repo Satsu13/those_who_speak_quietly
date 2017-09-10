@@ -1,6 +1,6 @@
 package data.game.player.board;
 
-import data.card.permanent.Permanent;
+import data.collection.card.permanent.Permanent;
 
 import java.util.List;
 
