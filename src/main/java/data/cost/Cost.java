@@ -1,6 +1,6 @@
 package data.cost;
 
-import data.mana.unit.Mana;
+import data.mana.Mana;
 
 public class Cost {
     private Mana color;

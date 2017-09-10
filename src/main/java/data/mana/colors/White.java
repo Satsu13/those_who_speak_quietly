@@ -1,6 +1,6 @@
-package data.mana.unit.colors;
+package data.mana.colors;
 
-import data.mana.unit.Mana;
+import data.mana.Mana;
 
 public class White extends Mana {
     protected String abstractGetName() {
