@@ -1,4 +1,4 @@
-package data.game.player.board.card.permanent;
+package data.game.player.board;
 
 import javafx.beans.property.ObjectProperty;
 import javafx.beans.property.SimpleObjectProperty;

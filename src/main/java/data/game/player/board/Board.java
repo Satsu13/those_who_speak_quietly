@@ -1,7 +1,6 @@
 package data.game.player.board;
 
 import data.collection.Deck;
-import data.game.player.board.card.permanent.Permanent;
 import javafx.beans.property.ObjectProperty;
 import javafx.beans.property.SimpleObjectProperty;
 
