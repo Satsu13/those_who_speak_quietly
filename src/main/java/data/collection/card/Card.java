@@ -4,8 +4,7 @@ import data.ability.Ability;
 import data.cost.Cost;
 import javafx.beans.property.ObjectProperty;
 import javafx.beans.property.SimpleObjectProperty;
-
-import java.util.List;
+import javafx.collections.ObservableList;
 
 public class Card {
     public final ObjectProperty<String> name;
@@ -14,7 +13,7 @@ public class Card {
 
     public final ObjectProperty<String> type;
 
-    public final ObjectProperty<List<Ability>> abilities;
+    public final ObjectProperty<ObservableList<Ability>> abilities;
 
     public final ObjectProperty<String> flavorText;
     
@@ -22,7 +21,7 @@ public class Card {
         name = new SimpleObjectProperty<String>();
         cost = new SimpleObjectProperty<Cost>();
         type = new SimpleObjectProperty<String>();
-        abilities = new SimpleObjectProperty<List<Ability>>();
+        abilities = new SimpleObjectProperty<ObservableList<Ability>>();
         flavorText = new SimpleObjectProperty<String>();
     }
 }
