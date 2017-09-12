@@ -12,6 +12,8 @@ public class Card {
 
     public final ObjectProperty<Cost> cost;
 
+    public final ObjectProperty<String> type;
+
     public final ObjectProperty<List<Ability>> abilities;
 
     public final ObjectProperty<String> flavorText;
@@ -19,6 +21,7 @@ public class Card {
     public Card() {
         name = new SimpleObjectProperty<String>();
         cost = new SimpleObjectProperty<Cost>();
+        type = new SimpleObjectProperty<String>();
         abilities = new SimpleObjectProperty<List<Ability>>();
         flavorText = new SimpleObjectProperty<String>();
     }
