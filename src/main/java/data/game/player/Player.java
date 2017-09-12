@@ -5,11 +5,11 @@ import javafx.beans.property.ObjectProperty;
 import javafx.beans.property.SimpleObjectProperty;
 
 public class Player {
-    public final ObjectProperty<String> name;
+    private ObjectProperty<String> name;
 
-    public final ObjectProperty<Board> board;
+    private ObjectProperty<Board> board;
 
-    public final ObjectProperty<Integer> life;
+    private ObjectProperty<Integer> life;
 
     public Player() {
         name = new SimpleObjectProperty<String>();

@@ -6,9 +6,9 @@ import javafx.beans.property.SimpleObjectProperty;
 import javafx.collections.ObservableList;
 
 public class Deck {
-    public final ObjectProperty<String> name;
+    private ObjectProperty<String> name;
 
-    public final ObjectProperty<ObservableList<Card>> cards;
+    private ObjectProperty<ObservableList<Card>> cards;
 
     public Deck() {
         name = new SimpleObjectProperty<String>();

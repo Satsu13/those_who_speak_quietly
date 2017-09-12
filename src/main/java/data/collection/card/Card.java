@@ -7,15 +7,15 @@ import javafx.beans.property.SimpleObjectProperty;
 import javafx.collections.ObservableList;
 
 public class Card {
-    public final ObjectProperty<String> name;
+    private ObjectProperty<String> name;
 
-    public final ObjectProperty<Cost> cost;
+    private ObjectProperty<Cost> cost;
 
-    public final ObjectProperty<String> type;
+    private ObjectProperty<String> type;
 
-    public final ObjectProperty<ObservableList<Ability>> abilities;
+    private ObjectProperty<ObservableList<Ability>> abilities;
 
-    public final ObjectProperty<String> flavorText;
+    private ObjectProperty<String> flavorText;
     
     public Card() {
         name = new SimpleObjectProperty<String>();

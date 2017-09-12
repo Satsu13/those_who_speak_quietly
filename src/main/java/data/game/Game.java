@@ -6,7 +6,7 @@ import javafx.beans.property.SimpleObjectProperty;
 import javafx.collections.ObservableList;
 
 public class Game {
-    public final ObjectProperty<ObservableList<Player>> players;
+    private ObjectProperty<ObservableList<Player>> players;
 
     public Game() {
         players = new SimpleObjectProperty<ObservableList<Player>>();

@@ -4,11 +4,11 @@ import javafx.beans.property.ObjectProperty;
 import javafx.beans.property.SimpleObjectProperty;
 
 public class Ability {
-    public final ObjectProperty<Boolean> hasName;
+    private ObjectProperty<Boolean> hasName;
 
-    public final ObjectProperty<String> name;
+    private ObjectProperty<String> name;
 
-    public final ObjectProperty<String> description;
+    private ObjectProperty<String> description;
 
     public Ability() {
         hasName = new SimpleObjectProperty<Boolean>();

@@ -6,13 +6,13 @@ import javafx.beans.property.SimpleObjectProperty;
 import javafx.collections.ObservableList;
 
 public class Board {
-    public final ObjectProperty<Hand> hand;
+    private ObjectProperty<Hand> hand;
 
-    public final ObjectProperty<Graveyard> graveyard;
+    private ObjectProperty<Graveyard> graveyard;
 
-    public final ObjectProperty<Deck> deck;
+    private ObjectProperty<Deck> deck;
 
-    public final ObjectProperty<ObservableList<Permanent>> permanents;
+    private ObjectProperty<ObservableList<Permanent>> permanents;
 
     public Board() {
         hand = new SimpleObjectProperty<Hand>();

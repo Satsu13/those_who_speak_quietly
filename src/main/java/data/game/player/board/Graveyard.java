@@ -6,7 +6,7 @@ import javafx.beans.property.SimpleObjectProperty;
 import javafx.collections.ObservableList;
 
 public class Graveyard {
-    public final ObjectProperty<ObservableList<Card>> cards;
+    private ObjectProperty<ObservableList<Card>> cards;
 
     public Graveyard() {
         cards = new SimpleObjectProperty<ObservableList<Card>>();

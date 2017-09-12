@@ -5,11 +5,11 @@ import javafx.beans.property.ObjectProperty;
 import javafx.beans.property.SimpleObjectProperty;
 
 public class Permanent {
-    public final ObjectProperty<Card> originalCard;
+    private ObjectProperty<Card> originalCard;
 
-    public final ObjectProperty<Card> activeCard;
+    private ObjectProperty<Card> activeCard;
 
-    public final ObjectProperty<Boolean> isCranked;
+    private ObjectProperty<Boolean> isCranked;
 
     public Permanent() {
         originalCard = new SimpleObjectProperty<Card>();
