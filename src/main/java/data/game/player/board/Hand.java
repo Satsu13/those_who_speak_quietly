@@ -11,4 +11,16 @@ public class Hand {
     public Hand() {
         cards = new SimpleObjectProperty<ObservableList<Card>>();
     }
+
+    public ObservableList<Card> getCards() {
+        return cards.get();
+    }
+
+    public ObjectProperty<ObservableList<Card>> cardsProperty() {
+        return cards;
+    }
+
+    public void setCards(ObservableList<Card> cards) {
+        this.cards.set(cards);
+    }
 }

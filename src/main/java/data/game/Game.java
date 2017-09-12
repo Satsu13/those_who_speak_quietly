@@ -11,4 +11,16 @@ public class Game {
     public Game() {
         players = new SimpleObjectProperty<ObservableList<Player>>();
     }
+
+    public ObservableList<Player> getPlayers() {
+        return players.get();
+    }
+
+    public ObjectProperty<ObservableList<Player>> playersProperty() {
+        return players;
+    }
+
+    public void setPlayers(ObservableList<Player> players) {
+        this.players.set(players);
+    }
 }

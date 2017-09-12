@@ -16,4 +16,40 @@ public class Permanent {
         activeCard = new SimpleObjectProperty<Card>();
         isCranked = new SimpleObjectProperty<Boolean>();
     }
+
+    public Card getOriginalCard() {
+        return originalCard.get();
+    }
+
+    public ObjectProperty<Card> originalCardProperty() {
+        return originalCard;
+    }
+
+    public void setOriginalCard(Card originalCard) {
+        this.originalCard.set(originalCard);
+    }
+
+    public Card getActiveCard() {
+        return activeCard.get();
+    }
+
+    public ObjectProperty<Card> activeCardProperty() {
+        return activeCard;
+    }
+
+    public void setActiveCard(Card activeCard) {
+        this.activeCard.set(activeCard);
+    }
+
+    public Boolean getIsCranked() {
+        return isCranked.get();
+    }
+
+    public ObjectProperty<Boolean> isCrankedProperty() {
+        return isCranked;
+    }
+
+    public void setIsCranked(Boolean isCranked) {
+        this.isCranked.set(isCranked);
+    }
 }

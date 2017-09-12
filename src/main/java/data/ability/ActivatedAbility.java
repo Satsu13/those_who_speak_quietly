@@ -10,4 +10,16 @@ public class ActivatedAbility extends Ability {
     public ActivatedAbility() {
         cost = new SimpleObjectProperty<PermanentsCost>();
     }
+
+    public PermanentsCost getCost() {
+        return cost.get();
+    }
+
+    public ObjectProperty<PermanentsCost> costProperty() {
+        return cost;
+    }
+
+    public void setCost(PermanentsCost cost) {
+        this.cost.set(cost);
+    }
 }
