@@ -23,4 +23,14 @@
             <url>https://raw.github.com/synergian/wagon-git/releases</url>
         </pluginRepository>
     </pluginRepositories>
+
+    <build>
+        <extensions>
+            <extension>
+                <groupId>ar.com.synergian</groupId>
+                <artifactId>wagon-git</artifactId>
+                <version>0.2.5</version>
+            </extension>
+        </extensions>
+    </build>
 </project>
