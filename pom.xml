@@ -8,4 +8,12 @@
     <artifactId>BackEnd</artifactId>
     <version>1.0</version>
 
+    <distributionManagement>
+        <repository>
+            <uniqueVersion>true</uniqueVersion>
+            <id>repository</id>
+            <name>Repository</name>
+            <url>git:repo://git@api.bitbucket.org:thosewhospeakquietly/wat.git</url>
+        </repository>
+    </distributionManagement>
 </project>
