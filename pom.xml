@@ -16,4 +16,11 @@
             <url>git:repo://git@api.bitbucket.org:thosewhospeakquietly/wat.git</url>
         </repository>
     </distributionManagement>
+
+    <pluginRepositories>
+        <pluginRepository>
+            <id>synergian-repo</id>
+            <url>https://raw.github.com/synergian/wagon-git/releases</url>
+        </pluginRepository>
+    </pluginRepositories>
 </project>
