@@ -1,4 +1,4 @@
-package data.ability;
+package those.who.speak.quietly.data.ability;
 
 import javafx.beans.property.ObjectProperty;
 import javafx.beans.property.SimpleObjectProperty;

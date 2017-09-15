@@ -1,6 +1,6 @@
-package data.collection;
+package those.who.speak.quietly.data.collection;
 
-import data.collection.card.Card;
+import those.who.speak.quietly.data.collection.card.Card;
 import javafx.beans.property.ObjectProperty;
 import javafx.beans.property.SimpleObjectProperty;
 import javafx.collections.ObservableList;

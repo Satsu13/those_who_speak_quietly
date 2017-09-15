@@ -1,6 +1,6 @@
-package data.game;
+package those.who.speak.quietly.data.game;
 
-import data.game.player.Player;
+import those.who.speak.quietly.data.game.player.Player;
 import javafx.beans.property.ObjectProperty;
 import javafx.beans.property.SimpleObjectProperty;
 import javafx.collections.ObservableList;

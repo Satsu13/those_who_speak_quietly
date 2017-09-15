@@ -1,18 +1,15 @@
-package data.collection;
+package those.who.speak.quietly.data.game.player.board;
 
-import data.collection.card.Card;
+import those.who.speak.quietly.data.collection.card.Card;
 import javafx.beans.property.ObjectProperty;
 import javafx.beans.property.SimpleObjectProperty;
 import javafx.collections.ObservableList;
 
-public class Collection {
+public class Hand {
     private ObjectProperty<ObservableList<Card>> cards;
 
-    private ObjectProperty<ObservableList<Deck>> decks;
-
-    public Collection() {
+    public Hand() {
         cards = new SimpleObjectProperty<ObservableList<Card>>();
-        decks = new SimpleObjectProperty<ObservableList<Deck>>();
     }
 
     public ObservableList<Card> getCards() {
@@ -25,17 +22,5 @@ public class Collection {
 
     public void setCards(ObservableList<Card> cards) {
         this.cards.set(cards);
-    }
-
-    public ObservableList<Deck> getDecks() {
-        return decks.get();
-    }
-
-    public ObjectProperty<ObservableList<Deck>> decksProperty() {
-        return decks;
-    }
-
-    public void setDecks(ObservableList<Deck> decks) {
-        this.decks.set(decks);
     }
 }
