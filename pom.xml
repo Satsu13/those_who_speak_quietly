@@ -39,13 +39,4 @@
             </extension>
         </extensions>
     </build>
-
-    <dependencies>
-        <!-- https://mvnrepository.com/artifact/org.apache.maven.wagon/wagon-http -->
-        <dependency>
-            <groupId>org.apache.maven.wagon</groupId>
-            <artifactId>wagon-http</artifactId>
-            <version>3.0.0</version>
-        </dependency>
-    </dependencies>
 </project>
