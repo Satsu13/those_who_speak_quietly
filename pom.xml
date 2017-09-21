@@ -13,13 +13,13 @@
             <uniqueVersion>true</uniqueVersion>
             <id>repository</id>
             <name>Repository</name>
-            <url>git:repo://git@bitbucket.org:thosewhospeakquietly/wat.git</url>
+            <url>git:releases://git@bitbucket.org:thosewhospeakquietly/wat.git</url>
         </repository>
         <snapshotRepository>
             <uniqueVersion>true</uniqueVersion>
             <id>repositorySnap</id>
             <name>Repository</name>
-            <url>git:repo://git@bitbucket.org:thosewhospeakquietly/snapshot_wat.git</url>
+            <url>git:snapshots://git@bitbucket.org:thosewhospeakquietly/wat.git</url>
         </snapshotRepository>
     </distributionManagement>
 
