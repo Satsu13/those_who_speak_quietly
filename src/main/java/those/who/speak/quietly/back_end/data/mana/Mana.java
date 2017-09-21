@@ -1,4 +1,4 @@
-package those.who.speak.quietly.data.mana;
+package those.who.speak.quietly.back_end.data.mana;
 
 import javafx.beans.property.ObjectProperty;
 import javafx.beans.property.SimpleObjectProperty;

@@ -1,6 +1,6 @@
-package those.who.speak.quietly.data.ability;
+package those.who.speak.quietly.back_end.data.ability;
 
-import those.who.speak.quietly.data.cost.PermanentsCost;
+import those.who.speak.quietly.back_end.data.cost.PermanentsCost;
 import javafx.beans.property.ObjectProperty;
 import javafx.beans.property.SimpleObjectProperty;
 

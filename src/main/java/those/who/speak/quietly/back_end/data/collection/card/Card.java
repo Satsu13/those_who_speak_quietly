@@ -1,7 +1,7 @@
-package those.who.speak.quietly.data.collection.card;
+package those.who.speak.quietly.back_end.data.collection.card;
 
-import those.who.speak.quietly.data.ability.Ability;
-import those.who.speak.quietly.data.cost.Cost;
+import those.who.speak.quietly.back_end.data.ability.Ability;
+import those.who.speak.quietly.back_end.data.cost.Cost;
 import javafx.beans.property.ObjectProperty;
 import javafx.beans.property.SimpleObjectProperty;
 import javafx.collections.ObservableList;

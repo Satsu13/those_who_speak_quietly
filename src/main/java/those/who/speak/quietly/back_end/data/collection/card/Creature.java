@@ -1,4 +1,4 @@
-package those.who.speak.quietly.data.collection.card;
+package those.who.speak.quietly.back_end.data.collection.card;
 
 import javafx.beans.property.ObjectProperty;
 import javafx.beans.property.SimpleObjectProperty;
